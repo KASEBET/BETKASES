@@ -1,0 +1,6 @@
+{
+  "name": "BETKASE - Plataforma Premium de Apuestas",
+  "description": "Plataforma premium para tipsters y apostadores con resultados verificados y picks en tiempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
