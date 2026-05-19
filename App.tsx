@@ -5,6 +5,7 @@ import { Bet } from './types';
 import firebase from './lib/firebase';
 import AdminPanel from './components/AdminPanel';
 import LiveMatches from './components/LiveMatches';
+import ProfilePanel from './components/ProfilePanel';
 
 // Helper for Toast
 const showToast = (message: string, type: 'success' | 'error' | 'warning' | 'info' = 'info') => {
@@ -197,6 +198,8 @@ export default function App() {
                     )}
                 </div>
             </section>
+
+            {user && <ProfilePanel />}
 
             <section className="section max-w-7xl mx-auto px-6 mt-20">
                 <LiveMatches sport={currentSportFilter} />
